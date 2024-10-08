@@ -1,13 +1,13 @@
 import { Head } from "$fresh/runtime.ts";
-import Sidebar from "../components/Sidebar.tsx";
 import Titlebar from "../components/Titlebar.tsx";
 import Editor from "../components/Editor.tsx";
+import Sidebar from "../islands/Sidebar.tsx";
 
 export default function Home() {
   return (
     <html lang="en">
       <Head>
-        <title>Welcome to KBSOO's Page</title>
+        <title>KBSOO</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
